@@ -47,3 +47,15 @@ class ListExamples {
 
 
 }
+
+class StringContains implements StringChecker {
+  private String str;
+
+  public StringContains(String str) {
+    this.str = str;
+  }
+
+  public boolean checkString(String s) {
+    return s.contains(str);
+  }
+}
