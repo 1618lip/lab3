@@ -20,8 +20,7 @@ public class ListTests {
         assertArrayEquals(new String[]{"123", "23", "12"}, get.toArray());
     }
 
-    @Test 
-    public void test
+    
    
 
 }
